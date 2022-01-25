@@ -1,7 +1,138 @@
-.App {
+.App, .infinite-scroll-component, .infinite-scroll-component , .outerdiv  {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+.true{
+  position: absolute;
+  top: 0;
+  left: 50px;
+  right: 50px;
+  margin-top: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  background: rgba(44, 44, 44, 0.74);
+  border-radius: 8px;
+  /* identical to box height */
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin-top: 35px;
+}
+.white{
+  background-color: #fff;
+}
+.bg-orange{
+  background: #FFF6A5;
+}
+.white, .bg-orange{
+  padding: 10px;
+  overflow: hidden;
+}
+.false{
+  display: none;
+}
+p{
+  color: #8F8F8F;
+}
+.white{
+  background-color: #fff;
+  padding: 10px;
+}
+.Card{
+  max-width: 224px;
+  min-width: 224px;
+  width: 100%;
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+  border-radius: 118px;
+  padding: 24px;
+}
+.Card-top{
+  max-width: 224px;
+  height: 260px;
+  background-image: url('https://source.unsplash.com/random');
+  background-size: cover;
+  object-fit: cover;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  vertical-align: auto;
+  padding: 10px;
+}
+.showMore{
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+  font-size: 24px;
+}
+.Title{
   text-align: center;
 }
+button{
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  padding: 0;
+}
+.down-old{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+.oldPrice{
+  text-decoration: line-through;
+}
+.Price, h3{
+  margin: 0;
+}
+.Price{
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+  color: #2C2C2C;
+}
+h3{
+  font-size: 14px;
+line-height: 16px;
+}
+h2{
+  font-size: 22px;
+line-height: 25px;
+}
+.down-bot{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.down-btn{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 26%;
+  justify-content: space-between;
+  
+}
+button:hover{
+  fill: green;
+}
+svg:hover, path:hover{
+  fill: green;
+}
 
+
+/*------------------------------------------*/
 .App-logo {
   height: 40vmin;
   pointer-events: none;
